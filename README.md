@@ -197,7 +197,7 @@ It has the following columns:
 ## Example
 
 ```
-cd eamples
+cd examples
 ../bin/SuSiEx \
 	--sst_file=EUR.sumstats.txt,AFR.sumstats.txt \
 	--n_gwas=50000,50000 \
@@ -207,7 +207,7 @@ cd eamples
 	--out_name=SuSiEx.EUR.AFR.output.cs95 \
 	--level=0.95 \
 	--pval_thresh=1e-5 \
-	--maf=0.005
+	--maf=0.005 \
 	--chr=1 \
 	--bp=7314654,8314677 \
 	--snp_col=2,2 \
